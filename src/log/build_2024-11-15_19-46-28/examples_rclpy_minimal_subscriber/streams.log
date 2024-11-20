@@ -1,0 +1,27 @@
+[2.144s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data
+[2.580s] running develop
+[2.822s] running egg_info
+[2.822s] creating examples_rclpy_minimal_subscriber.egg-info
+[2.822s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.822s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.822s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.828s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.828s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.830s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.889s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.890s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.965s] running build_ext
+[2.966s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[2.969s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.971s] Installing subscriber_lambda script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.971s] Installing subscriber_member_function script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.971s] Installing subscriber_old_school script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.972s] 
+[2.972s] Installed /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber
+[2.972s] running symlink_data
+[2.972s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.973s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.973s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.973s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.973s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/package.xml -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[3.029s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data

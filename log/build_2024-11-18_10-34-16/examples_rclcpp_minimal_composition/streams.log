@@ -1,0 +1,96 @@
+[0.045s] Invoking command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_ws/src/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.215s] -- The C compiler identification is GNU 9.4.0
+[0.346s] -- The CXX compiler identification is GNU 9.4.0
+[0.353s] -- Check for working C compiler: /usr/bin/cc
+[0.446s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.448s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.585s] -- Detecting C compile features
+[0.585s] -- Detecting C compile features - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.722s] -- Detecting CXX compiler ABI info
+[0.868s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.890s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.932s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.932s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.272s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.450s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.482s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.679s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.682s] -- Looking for pthread.h
+[1.801s] -- Looking for pthread.h - found
+[1.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.925s] -- Looking for pthread_create in pthreads
+[2.034s] -- Looking for pthread_create in pthreads - not found
+[2.034s] -- Looking for pthread_create in pthread
+[2.167s] -- Looking for pthread_create in pthread - found
+[2.167s] -- Found Threads: TRUE  
+[2.413s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.534s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.653s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.656s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.656s] -- Configured cppcheck include dirs: /home/vincent-pc/ros2_ws/src/src/examples/rclcpp/composition/minimal_composition/include
+[2.656s] -- Configured cppcheck exclude dirs and/or files: 
+[2.658s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.658s] -- Configured cpplint exclude dirs and/or files: 
+[2.659s] -- Added test 'lint_cmake' to check CMake code style
+[2.661s] -- Added test 'uncrustify' to check C / C++ code style
+[2.661s] -- Configured uncrustify additional arguments: 
+[2.661s] -- Added test 'xmllint' to check XML markup files
+[2.668s] -- Configuring done
+[2.703s] -- Generating done
+[2.706s] -- Build files have been written to: /home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition
+[2.728s] Invoked command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_ws/src/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition
+[2.730s] Invoking command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[2.906s] [35m[1mScanning dependencies of target composition_nodes[0m
+[3.059s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[3.080s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[20.417s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[20.931s] [ 33%] Built target composition_nodes
+[20.947s] [35m[1mScanning dependencies of target composition_composed[0m
+[20.951s] [35m[1mScanning dependencies of target composition_publisher[0m
+[20.951s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[21.048s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[21.052s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[21.053s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[24.740s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[24.976s] [ 77%] Built target composition_composed
+[25.012s] [ 88%] [32m[1mLinking CXX executable composition_publisher[0m
+[25.015s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[25.224s] [100%] Built target composition_publisher
+[25.227s] [100%] Built target composition_subscriber
+[25.239s] Invoked command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[25.277s] Invoking command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition
+[25.286s] -- Install configuration: ""
+[25.286s] -- Execute custom install script
+[25.287s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[25.296s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[25.305s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[25.313s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[25.322s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[25.331s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[25.340s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[25.348s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[25.357s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[25.366s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[25.374s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[25.382s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[25.391s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[25.399s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[25.407s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[25.415s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[25.424s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[25.432s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[25.440s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[25.448s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[25.456s] -- Symlinking: /home/vincent-pc/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[25.467s] Invoked command in '/home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_ws/build/examples_rclcpp_minimal_composition

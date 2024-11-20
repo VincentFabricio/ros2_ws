@@ -1,0 +1,26 @@
+[2.123s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[2.571s] running develop
+[2.804s] running egg_info
+[2.805s] creating examples_rclpy_minimal_service.egg-info
+[2.805s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.805s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.805s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.805s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[2.805s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.813s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.872s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.873s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.941s] running build_ext
+[2.941s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/site.py
+[2.945s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[2.946s] Installing service script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.947s] Installing service_member_function script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.947s] 
+[2.947s] Installed /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service
+[2.947s] running symlink_data
+[2.948s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/share/ament_index
+[2.948s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[2.948s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.948s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/resource/examples_rclpy_minimal_service -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.948s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/package.xml -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[3.006s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_minimal_service/build --no-deps symlink_data

@@ -1,0 +1,82 @@
+[0.045s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[2.612s] -- The C compiler identification is GNU 9.4.0
+[2.612s] -- The CXX compiler identification is GNU 9.4.0
+[2.613s] -- Check for working C compiler: /usr/bin/cc
+[2.613s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.615s] -- Detecting C compiler ABI info
+[2.616s] -- Detecting C compiler ABI info - done
+[2.616s] -- Detecting C compile features
+[2.616s] -- Detecting C compile features - done
+[2.616s] -- Check for working CXX compiler: /usr/bin/c++
+[2.616s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.616s] -- Detecting CXX compiler ABI info
+[2.616s] -- Detecting CXX compiler ABI info - done
+[2.617s] -- Detecting CXX compile features
+[2.617s] -- Detecting CXX compile features - done
+[2.617s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.617s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.617s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.617s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.617s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.617s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.617s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.618s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.618s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.618s] -- Looking for pthread.h
+[2.618s] -- Looking for pthread.h - found
+[2.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.618s] -- Looking for pthread_create in pthreads
+[2.618s] -- Looking for pthread_create in pthreads - not found
+[2.619s] -- Looking for pthread_create in pthread
+[2.619s] -- Looking for pthread_create in pthread - found
+[2.619s] -- Found Threads: TRUE  
+[2.619s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.619s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.619s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.619s] -- Configured cppcheck include dirs: 
+[2.620s] -- Configured cppcheck exclude dirs and/or files: 
+[2.620s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.620s] -- Configured cpplint exclude dirs and/or files: 
+[2.620s] -- Added test 'lint_cmake' to check CMake code style
+[2.620s] -- Added test 'uncrustify' to check C / C++ code style
+[2.620s] -- Configured uncrustify additional arguments: 
+[2.620s] -- Added test 'xmllint' to check XML markup files
+[2.620s] -- Configuring done
+[2.620s] -- Generating done
+[2.621s] -- Build files have been written to: /home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[2.635s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[2.640s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[2.774s] [35m[1mScanning dependencies of target timer_member_function[0m
+[2.783s] [35m[1mScanning dependencies of target timer_lambda[0m
+[2.852s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[2.885s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[11.731s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[11.957s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[12.456s] [100%] Built target timer_lambda
+[12.562s] [100%] Built target timer_member_function
+[12.620s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[13.230s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[14.825s] -- Install configuration: ""
+[14.825s] -- Execute custom install script
+[14.825s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[14.825s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[14.825s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[14.826s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[14.827s] -- Symlinking: /home/vincent-pc/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[14.881s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_ws/src/build/examples_rclcpp_minimal_timer

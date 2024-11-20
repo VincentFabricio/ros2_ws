@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_ws/src/src/examples/rclpy/services/minimal_service/setup.py

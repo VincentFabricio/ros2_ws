@@ -1,0 +1,30 @@
+[2.814s] Invoking command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/build --no-deps symlink_data
+[3.235s] running develop
+[3.498s] running egg_info
+[3.498s] creating examples_rclpy_executors.egg-info
+[3.499s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[3.499s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[3.499s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[3.500s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[3.500s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[3.503s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.577s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.579s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.666s] running build_ext
+[3.667s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages/site.py
+[3.671s] Creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[3.672s] Installing callback_group script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.673s] Installing composed script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.673s] Installing custom_callback_group script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.673s] Installing custom_executor script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.673s] Installing listener script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.674s] Installing talker script to /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.674s] 
+[3.674s] Installed /home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors
+[3.674s] running symlink_data
+[3.675s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/share/ament_index
+[3.675s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/share/ament_index/resource_index
+[3.675s] creating /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.675s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.675s] symbolically linking /home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/package.xml -> /home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/share/examples_rclpy_executors
+[3.800s] Invoked command in '/home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_ws/src/build/examples_rclpy_executors/build --no-deps symlink_data

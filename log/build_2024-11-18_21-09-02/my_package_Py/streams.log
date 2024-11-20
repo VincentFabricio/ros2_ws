@@ -1,0 +1,37 @@
+[0.835s] Invoking command in '/home/vincent-pc/ros2_ws/src/my_package_Py': PYTHONPATH=/home/vincent-pc/ros2_ws/build/my_package_Py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package_Py build --build-base /home/vincent-pc/ros2_ws/build/my_package_Py/build install --record /home/vincent-pc/ros2_ws/build/my_package_Py/install.log --install-scripts $base/lib/my_package_Py --single-version-externally-managed install_data
+[1.074s] running egg_info
+[1.075s] creating ../../build/my_package_Py/my_package_Py.egg-info
+[1.075s] writing ../../build/my_package_Py/my_package_Py.egg-info/PKG-INFO
+[1.076s] writing dependency_links to ../../build/my_package_Py/my_package_Py.egg-info/dependency_links.txt
+[1.076s] writing entry points to ../../build/my_package_Py/my_package_Py.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../build/my_package_Py/my_package_Py.egg-info/requires.txt
+[1.076s] writing top-level names to ../../build/my_package_Py/my_package_Py.egg-info/top_level.txt
+[1.078s] writing manifest file '../../build/my_package_Py/my_package_Py.egg-info/SOURCES.txt'
+[1.109s] reading manifest file '../../build/my_package_Py/my_package_Py.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../../build/my_package_Py/my_package_Py.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.110s] running build_py
+[1.110s] creating /home/vincent-pc/ros2_ws/build/my_package_Py/build
+[1.110s] creating /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib
+[1.110s] creating /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib/my_package_Py
+[1.110s] copying my_package_Py/my_node.py -> /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib/my_package_Py
+[1.110s] copying my_package_Py/__init__.py -> /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib/my_package_Py
+[1.110s] running install
+[1.111s] running install_lib
+[1.112s] creating /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py
+[1.112s] copying /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib/my_package_Py/my_node.py -> /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py
+[1.112s] copying /home/vincent-pc/ros2_ws/build/my_package_Py/build/lib/my_package_Py/__init__.py -> /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py
+[1.113s] byte-compiling /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py/my_node.py to my_node.cpython-38.pyc
+[1.114s] byte-compiling /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py/__init__.py to __init__.cpython-38.pyc
+[1.114s] running install_data
+[1.114s] creating /home/vincent-pc/ros2_ws/install/my_package_Py/share/ament_index
+[1.114s] creating /home/vincent-pc/ros2_ws/install/my_package_Py/share/ament_index/resource_index
+[1.114s] creating /home/vincent-pc/ros2_ws/install/my_package_Py/share/ament_index/resource_index/packages
+[1.114s] copying resource/my_package_Py -> /home/vincent-pc/ros2_ws/install/my_package_Py/share/ament_index/resource_index/packages
+[1.114s] copying package.xml -> /home/vincent-pc/ros2_ws/install/my_package_Py/share/my_package_Py
+[1.115s] running install_egg_info
+[1.116s] Copying ../../build/my_package_Py/my_package_Py.egg-info to /home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages/my_package_Py-0.0.0-py3.8.egg-info
+[1.117s] running install_scripts
+[1.132s] Installing my_node script to /home/vincent-pc/ros2_ws/install/my_package_Py/lib/my_package_Py
+[1.132s] writing list of installed files to '/home/vincent-pc/ros2_ws/build/my_package_Py/install.log'
+[1.152s] Invoked command in '/home/vincent-pc/ros2_ws/src/my_package_Py' returned '0': PYTHONPATH=/home/vincent-pc/ros2_ws/build/my_package_Py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_ws/install/my_package_Py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package_Py build --build-base /home/vincent-pc/ros2_ws/build/my_package_Py/build install --record /home/vincent-pc/ros2_ws/build/my_package_Py/install.log --install-scripts $base/lib/my_package_Py --single-version-externally-managed install_data
