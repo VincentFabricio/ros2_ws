@@ -1,0 +1,79 @@
+[0.073s] Invoking command in '/home/vincent-pc/ros2_ws/build/cpp_srvcli': /usr/bin/cmake /home/vincent-pc/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/install/cpp_srvcli
+[0.311s] -- The C compiler identification is GNU 9.4.0
+[0.416s] -- The CXX compiler identification is GNU 9.4.0
+[0.423s] -- Check for working C compiler: /usr/bin/cc
+[0.506s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.508s] -- Detecting C compiler ABI info
+[0.578s] -- Detecting C compiler ABI info - done
+[0.590s] -- Detecting C compile features
+[0.591s] -- Detecting C compile features - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.683s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.779s] -- Detecting CXX compile features
+[0.780s] -- Detecting CXX compile features - done
+[0.789s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.815s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.815s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.036s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.254s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.281s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.435s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.439s] -- Looking for pthread.h
+[1.512s] -- Looking for pthread.h - found
+[1.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.587s] -- Looking for pthread_create in pthreads
+[1.649s] -- Looking for pthread_create in pthreads - not found
+[1.649s] -- Looking for pthread_create in pthread
+[1.718s] -- Looking for pthread_create in pthread - found
+[1.719s] -- Found Threads: TRUE  
+[1.884s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.999s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.054s] Error parsing '/home/vincent-pc/ros2_ws/src/cpp_srvcli/package.xml':
+[2.183s] Traceback (most recent call last):
+[2.183s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.183s]     root = dom.parseString(data)
+[2.183s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[2.183s]     return expatbuilder.parseString(string)
+[2.184s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[2.184s]     return builder.parseString(string)
+[2.184s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[2.184s]     parser.Parse(string, True)
+[2.184s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 8, column 30
+[2.184s] 
+[2.184s] During handling of the above exception, another exception occurred:
+[2.184s] 
+[2.184s] Traceback (most recent call last):
+[2.184s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[2.184s]     main()
+[2.184s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[2.184s]     raise e
+[2.185s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[2.185s]     package = parse_package_string(
+[2.185s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.185s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.185s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vincent-pc/ros2_ws/src/cpp_srvcli/package.xml':
+[2.185s] The manifest contains invalid XML:
+[2.185s] not well-formed (invalid token): line 8, column 30
+[2.214s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[2.214s]   execute_process(/usr/bin/python3
+[2.214s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.214s]   /home/vincent-pc/ros2_ws/src/cpp_srvcli/package.xml
+[2.214s]   /home/vincent-pc/ros2_ws/build/cpp_srvcli/ament_cmake_core/package.cmake)
+[2.214s]   returned error code 1
+[2.214s] Call Stack (most recent call first):
+[2.214s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.214s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.215s]   CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)
+[2.215s] 
+[2.215s] 
+[2.216s] -- Configuring incomplete, errors occurred!
+[2.216s] See also "/home/vincent-pc/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[2.216s] See also "/home/vincent-pc/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[2.225s] Invoked command in '/home/vincent-pc/ros2_ws/build/cpp_srvcli' returned '1': /usr/bin/cmake /home/vincent-pc/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_ws/install/cpp_srvcli
